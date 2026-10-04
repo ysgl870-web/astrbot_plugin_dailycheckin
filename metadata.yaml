@@ -1,0 +1,11 @@
+name: astrbot_plugin_dailycheckin
+display_name: 每日签到打卡
+desc: 群内每日签到打卡赚积分，支持连续签到加成、我的积分查询与群积分榜排行。
+help: |
+  指令列表：
+  - 签到            每日签到一次，获得随机积分与连续签到加成（别名 checkin / 打卡）
+  - 我的积分        查看自己的积分、连续天数与累计签到次数（别名 my / 积分）
+  - 积分榜          查看本群积分排行榜 Top10（别名 rank / 排行）
+version: v1.0.0
+author: ysgl
+repo: https://github.com/ysgl870-web/astrbot_plugin_dailycheckin

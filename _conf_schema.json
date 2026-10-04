@@ -1,0 +1,20 @@
+{
+  "base_min": {
+    "description": "签到基础积分下限",
+    "type": "int",
+    "default": 5,
+    "hint": "每次签到随机获得的基础积分最小值"
+  },
+  "base_max": {
+    "description": "签到基础积分上限",
+    "type": "int",
+    "default": 15,
+    "hint": "每次签到随机获得的基础积分最大值"
+  },
+  "max_streak_bonus": {
+    "description": "连续签到加成封顶天数",
+    "type": "int",
+    "default": 7,
+    "hint": "连续签到每天额外 +2 分，超过此天数后加成不再累加（默认7天，即最多额外+14分）"
+  }
+}
